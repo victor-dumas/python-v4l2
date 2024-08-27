@@ -1,5 +1,4 @@
-from distutils.core import setup
-
+from setuptools import setup
 
 setup(
     name='v4l2',
@@ -10,11 +9,11 @@ setup(
 
     maintainer='python-v4l2-devel',
     maintainer_email='https://launchpad.net/~python-v4l2-devel/+contactuser',
-    url='https://pypi.python.org/project/v4l2',
+    url='https://pypi.org/project/v4l2',
     keywords='v4l2 video4linux video4linux2 binding ctypes',
     description='Python bindings for the v4l2 userspace api.',
 
-    classifiers=(
+    classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License (GPL)',
@@ -23,5 +22,5 @@ setup(
         'Programming Language :: Python',
         'Topic :: Multimedia :: Video',
         'Topic :: Multimedia :: Video :: Capture',
-    ),
+    ],
 )
