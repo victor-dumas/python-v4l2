@@ -1,8 +1,9 @@
-# python-v4l2
+# python-v4l2  
 A Python binding for the v4l2 (video4linux2) userspace api, using ctypes.  
-
-Basic example usage::
-
+  
+Basic example usage:  
+  
+```
 >>> import v4l2
 >>> import fcntl
 >>> vd = open('/dev/video0', 'rw')
@@ -13,9 +14,10 @@ Basic example usage::
 'uvcvideo'
 >>> cp.card
 'USB 2.0 Camera'
+```  
+  
+See the ``linux/videodev2.h`` header file for details. Currently the bindings are compatible with the 6.12 kernel headers.  
+  
+`Video for Linux Two Specification <http://linuxtv.org/downloads/v4l-dvb-apis/ch07s02.html>`
 
-See the ``linux/videodev2.h`` header file for details. Currently the
-bindings are compatible with the 6.12 kernel headers.
-
-* `Video for Linux Two Specification <http://linuxtv.org/downloads/v4l-dvb-
-apis/ch07s02.html>`_ 
+Based on the original python package by tamask on PyPI.
