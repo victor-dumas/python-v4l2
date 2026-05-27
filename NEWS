@@ -1,6 +1,13 @@
 python-v4l2 Releases
 ====================
 
+0.3
+---
+
+* Updated code to be compatible with Python3; addresses `#1664158`
+
+.. _`#1664158`: https://bugs.launchpad.net/python-v4l2/+bug/1664158
+
 0.2
 ---
 

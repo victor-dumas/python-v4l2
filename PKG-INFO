@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: v4l2
-Version: 0.2
+Version: 0.3
 Summary: Python bindings for the v4l2 userspace api.
 Home-page: http://pypi.python.org/pypi/v4l2
 Author: python-v4l2-devel
